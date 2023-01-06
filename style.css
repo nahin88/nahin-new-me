@@ -4,10 +4,16 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+section {
+    max-width: 1140px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* ========== header area==========  */
 header {
     height: 100vh;
-   
+
     background-image: url('images/banner/banner1.png');
     background-size: cover;
     background-position: center left;
@@ -30,20 +36,98 @@ header {
     color: #151414;
 }
 
-.header-description{
+.header-description {
     line-height: 26px;
     color: #444343;
     margin: 30px 0;
 }
 
-.header-btn{
+.header-btn {
     padding: 20px 30px;
     background-color: #F15B22;
     border: 0;
     border-radius: 5px;
 }
-.header-btn a{
+
+.header-btn a {
     color: #FFFFFF;
     text-decoration: none;
-    
+
+}
+
+/* ========== Failure Area==========  */
+.failure {
+    margin-top: 130px;
+}
+
+.failure-container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failure-detail,
+.failure-list li {
+    color: #444343;
+    margin: 25px 0;
+}
+
+.failure-right {
+    margin-top: 120px;
+}
+
+.failure-right ul {
+    list-style: none;
+}
+
+.failure-list li i {
+    color: #4ecb71;
+}
+
+/* ========== Plan Area==========  */
+.plan {
+    margin-top: 130px;
+}
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-item h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 15px 0;
+}
+
+.plan-item p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.linear-gradient{
+    height: 300px;
+    width: 100%;
+    background-color: red;
 }
