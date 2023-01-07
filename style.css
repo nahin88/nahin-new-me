@@ -39,7 +39,8 @@ header {
 .header-description {
     line-height: 26px;
     color: #444343;
-    margin: 30px 0;
+    margin: 30px 0 30px 21px;
+    width: 96%;
 }
 
 .header-btn {
@@ -91,6 +92,73 @@ header {
     color: #4ecb71;
 }
 
+/* ========== Training area ==========  */
+
+.training{
+    margin-top: 130px;
+}
+
+.training-container{
+    display: flex;
+}
+
+.training-left{
+    width: 50%;
+    margin: auto;
+}
+
+.training-left-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    width: 90%;
+    margin: 30px 0;
+}
+
+.training-left-detail{
+    color: #444343;
+    width: 90%;
+}
+.training-right{
+    width: 50%;
+}
+
+.training-right-top{
+    display: flex;
+}
+.training-right-bottom{
+    display: flex;
+}
+.icon{
+    height: 80px;
+    width: 80px;
+    background-color: #f15d22a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #F8F8F8;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.training-right-item{
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 20px 10px;
+    box-shadow: 4px 4px 4px 4px #00000013;
+}
+.training-right-item-title{
+    margin: 10px 0;
+}
+
+.training-right-item-detail{
+    color: #444343;
+}
+
+.icon img{
+    height: 40px;
+    width: 40px;
+}
 /* ========== Plan Area==========  */
 .plan {
     margin-top: 130px;
