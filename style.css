@@ -16,7 +16,7 @@ header {
 
     background-image: url('images/banner/banner1.png');
     background-size: cover;
-    background-position: center left;
+    background-position: center;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -159,15 +159,78 @@ header {
 }
 
 /* ========== Footer ==========  */
-footer{
-    height: 580px;
+footer {
+    /* height: 580px; */
     background: #000;
     margin-top: 130px;
     color: #F8F8F8;
+    padding: 130px 0;
 }
 
-.footer-container{
+.footer-container {
     max-width: 1140px;
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    gap: 100px;
+    /* justify-content: space-between; */
+}
+
+.footer-left {
+    width: 45%;
+}
+
+.footer-left-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-left-detail,
+.footer-left-email,
+.footer-left-number {
+    color: #FFFFFF;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.footer-img-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-right {
+    /* width: 50%; */
+    margin-left: 100px;
+}
+
+.footer-right-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.footer-right input[type=email]{
+    padding: 20px 160px 20px 20px;
+    background: #151414;
+    border-color: #ffffff9a;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-right input[type=email]::placeholder{
+    color: #FFFFFF;
+}
+
+.footer-btn{
+    padding: 20px 35px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #FFFFFF;
 }
